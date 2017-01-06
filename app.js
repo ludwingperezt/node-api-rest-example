@@ -6,6 +6,8 @@ var express = require("express"),
     server = http.createServer(app),
     mongoose = require("mongoose");
 
+//var TVShowCtrl
+
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 app.use(methodOverride());
